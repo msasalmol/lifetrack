@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: activity-ms
+  mongodb:
+    uri: mongodb://admin:admin123@localhost:27017/lifetrack?authSource=admin
+
+management:
+  endpoint:
+    health:
+      show-details: always
